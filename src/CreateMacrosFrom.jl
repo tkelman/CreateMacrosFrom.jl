@@ -19,8 +19,8 @@ export create_macros_from
 
 Will create a macro for each of the `functions`.
 
-Each function should take and return expressions, symbols, literal strings, or
-literal numbers. The new macro will have the same name.
+Each function should take and return code. The new macro will have the same
+name.
 
 # examples
 ```jldoctest
