@@ -9,7 +9,7 @@ makedocs(
     modules = [CreateMacrosFrom],
     format = :html,
     sitename = "CreateMacrosFrom.jl",
-    pages = Any["Home" => "index.md"]
-    root = joinpath(dirname(dirname(@__FILE__)), "docs")
+    pages = Any["Home" => "index.md"],
+    root = joinpath(dirname(dirname(@__FILE__)), "docs"),
     strict = true
 )
