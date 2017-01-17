@@ -39,7 +39,7 @@ julia> vcat(2, 1) == @reverse_binary 1 vcat 2
 true
 ```
 
-There is no scrubbing for hygeine.
+There is no scrubbing for hygeine, so be careful.
 
 ```jldoctest
 julia> using CreateMacrosFrom
