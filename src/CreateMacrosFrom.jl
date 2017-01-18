@@ -39,7 +39,8 @@ julia> vcat(2, 1) == @reverse_binary 1 vcat 2
 true
 ```
 
-There is no scrubbing for hygeine, so be careful.
+There is no scrubbing for hygeine, so be careful. Interpolate in local
+functions, and don't create local variables unless you mean it.
 
 ```jldoctest
 julia> using CreateMacrosFrom
